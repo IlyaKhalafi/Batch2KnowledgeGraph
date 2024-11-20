@@ -8,13 +8,6 @@ from unittest.mock import patch, MagicMock
 
 class TestUnstructuredSource:
     
-    @pytest.fixture
-    def sample_source(self, tmp_path):
-        # Create a temporary text file
-        file_path = tmp_path / "test.txt"
-        file_path.write_text("Sample content for testing")
-        return UnstructuredSource(str(file_path))
-    
     def test_initialization(self, sample_source):
         assert sample_source.path is not None
         assert os.path.exists(sample_source.path)
