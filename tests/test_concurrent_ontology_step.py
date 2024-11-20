@@ -46,7 +46,6 @@ class TestConcurrentCreateOntologyStep:
     # @patch("src.steps.concurrent_ontology_step.ConcurrentCreateOntologyStep._create_chat", autospec=True)
     # @patch("src.steps.concurrent_ontology_step.ConcurrentCreateOntologyStep._process_source", autospec=True)
     # @patch("src.steps.concurrent_ontology_step.ConcurrentCreateOntologyStep._fix_ontology", autospec=True)
-    # @pytest.mark.usefixtures("sample_source", "mock_ontology")
     # def test_run_success(self, mock_create_chat, mock_process_source, mock_fix_ontology, sample_source, mock_ontology):
     #     """
     #     Test the run method when everything executes successfully.

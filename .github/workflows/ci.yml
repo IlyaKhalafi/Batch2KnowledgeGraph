@@ -12,11 +12,38 @@ jobs:
   test:
     runs-on: ubuntu-latest
 
+    services:
+      falkordb:
+        image: falkordb/falkordb:latest
+        ports:
+          - 6379:6379
+        options: > 
+          --rm 
+          -v ./data:/data
+
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
     steps:
       - name: Checkout Code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      # Install Python 3 and Required Linux Packages
+      - name: Cache Python Dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-
+
+      - name: Cache Linux Packages
+        uses: actions/cache@v3
+        with:
+          path: /var/cache/apt
+          key: ${{ runner.os }}-apt-${{ hashFiles('**/requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-apt-
+
       - name: Install Python and Linux Dependencies
         run: |
           sudo apt-get update
@@ -41,3 +68,6 @@ jobs:
 
       - name: Run Linter with Pylint
         run: python3 -m pylint --exit-zero **/*.py
+
+      - name: Test Main
+        run: python3 main.py

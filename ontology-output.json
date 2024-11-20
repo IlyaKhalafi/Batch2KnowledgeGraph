@@ -1,0 +1,6035 @@
+{
+  "entities": [
+    {
+      "label": "Person",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "birthDate",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "deathDate",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "occupation",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "nationality",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "birthYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "deathYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "role",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "birth_year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "death_year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "profession",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "location_of_birth",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "biography",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "birthPlace",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "socialStatus",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "nickname",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "notableWork",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "fatherName",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "motherProfession",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "education",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "servicedInstitutions",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "retirementYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "birth_date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "death_date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "birth_place",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "ethnicity",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "self_destructive_tendency",
+          "type": "boolean",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "age",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "jobTitle",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "date_of_birth",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "date_of_death",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "achievement_count",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "character_defects",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "virtues",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "marital_status",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "height",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "strength",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "aliases",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "birthplace",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "characteristic",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "birthdate",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "deathdate",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "build",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "appearance",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "location_of_death",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "affiliation",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "cityBorn",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "University",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Experiment",
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "substance",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "purpose",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "yearStarted",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "yearEnded",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "subject",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "FamilyMember",
+      "attributes": [
+        {
+          "name": "relation",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "ageAtDeath",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Location",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "country",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Group",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Achievement",
+      "attributes": [
+        {
+          "name": "description",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "patent_count",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Education",
+      "attributes": [
+        {
+          "name": "level",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "training",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "institution",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "degree",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Computer",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "capability",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Crime",
+      "attributes": [
+        {
+          "name": "description",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Death",
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "cause",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Gas",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "properties",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Institution",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Lecture",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "topic",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Discovery",
+      "attributes": [
+        {
+          "name": "description",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "yearPublished",
+          "type": "number",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Organization",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "foundationYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Place",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Event",
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Disease",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "symptoms",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Government",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Vaccine",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "disease",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "developer",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "testingMethod",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "School",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "yearFounded",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "duration",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "foundingYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Conference",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "topic",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Expert",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Educator",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Invention",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "yearInvented",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "patent_count",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "effect",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "speed",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "yearDeveloped",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Book",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "author",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "publication_year",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Cause",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Film",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "successStatus",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "AstronomyWork",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "language",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "observations",
+          "type": "boolean",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Observatory",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "buildingType",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "destroyed",
+          "type": "boolean",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Plant",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "characteristics",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "manager",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Monastery",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "abbot",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "LawOfInheritance",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Theory",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "discoveredBy",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Controversy",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "participants",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Philosopher",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "birthPlace",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "deathDate",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "birthYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "deathYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "philosophySchool",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "era",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Order",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Work",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "completionYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "isComplete",
+          "type": "boolean",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "EducationalInstitution",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Occupation",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "City",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "country",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "region",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Empire",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Treatment",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Laboratory",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "function",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Country",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Contribution",
+      "attributes": [
+        {
+          "name": "description",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "field",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Equipment",
+      "attributes": [
+        {
+          "name": "value",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Philosophy",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "founder",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "influence",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Pirate",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "SlaveOwner",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Spacecraft",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Flight",
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "duration",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "altitude",
+          "type": "number",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "manned",
+          "type": "boolean",
+          "unique": false,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Document",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "PoliticalEntity",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "influenceOn",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Scientist",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "birthYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "deathYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Paper",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "publicationYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "journalName",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Tax",
+      "attributes": [
+        {
+          "name": "amount",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "College",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "HealthIssue",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "duration",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "EngineeringProgram",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "duration",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "diplomaObtained",
+          "type": "boolean",
+          "unique": false,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "War",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Oracle",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Execution",
+      "attributes": [
+        {
+          "name": "method",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Publisher",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Newspaper",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Disaster",
+      "attributes": [
+        {
+          "name": "description",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "result",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "casualties",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Product",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "FireIncident",
+      "attributes": [
+        {
+          "name": "description",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Experimentation",
+      "attributes": [
+        {
+          "name": "description",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "result",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Train",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Factory",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "foundedYear",
+          "type": "number",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "owner",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Edison",
+      "attributes": [
+        {
+          "name": "notable_work",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "ChemicalElement",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "discoveredBy",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "SafetyLamp",
+      "attributes": [
+        {
+          "name": "inventedBy",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "ApothecarySurgeon",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Shop",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "inheritedBy",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Chemist",
+      "attributes": [
+        {
+          "name": "specialization",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "fields",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Mendeleev",
+      "attributes": [
+        {
+          "name": "firstName",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "lastName",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "nationality",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "AcademyOfSciences",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "UniversityOfStPetersburg",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "StudentPetition",
+      "attributes": [
+        {
+          "name": "submissionDate",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "recipient",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "TaxOfficial",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Institute",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "VacationHome",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "PoliticalAdvisor",
+      "attributes": [
+        {
+          "name": "role",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Rocket",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "fuelType",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "firstFlightDate",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Estate",
+      "attributes": [
+        {
+          "name": "value",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "patentsCount",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Ship",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "event",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "sinking_date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Trial",
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "outcome",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Engine",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "efficiency",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Textbook",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "yearWritten",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Award",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "King",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Tomb",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "feature",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Machine",
+      "attributes": [
+        {
+          "name": "function",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Note",
+      "attributes": [
+        {
+          "name": "message",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Tribute",
+      "attributes": [
+        {
+          "name": "event",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "duration",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Quaker",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "ScientificInfluence",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Society",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "subscriptionFee",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Condition",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Record",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "count",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "MeasurementTool",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Vaccination",
+      "attributes": [
+        {
+          "name": "description",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "diseasePrevented",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Certificate",
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "AstronomerRoyal",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "startYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "endYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Observation",
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "count",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Family",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "relation",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "member",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "belief",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Position",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "institution",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Monument",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "yearErected",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Queen",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "title",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Marriage",
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Relationship",
+      "attributes": [
+        {
+          "name": "nature",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "HealthCondition",
+      "attributes": [
+        {
+          "name": "condition",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "relatedTo",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Publication",
+      "attributes": [
+        {
+          "name": "title",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "reprintedCount",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Spouse",
+      "attributes": [
+        {
+          "name": "relation",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "profession",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Frog",
+      "attributes": [
+        {
+          "name": "species",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "dissectionPurpose",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "ElectricalMachine",
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "usedIn",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Scalpel",
+      "attributes": [
+        {
+          "name": "material",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "usedFor",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Degree",
+      "attributes": [
+        {
+          "name": "fieldOfStudy",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "awardedBy",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "PapalFidelity",
+      "attributes": [
+        {
+          "name": "level",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "context",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "PrivateLife",
+      "attributes": [
+        {
+          "name": "duration",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "situation",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Decline",
+      "attributes": [
+        {
+          "name": "reason",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "relatedTo",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Career",
+      "attributes": [
+        {
+          "name": "status",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "impact",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Post",
+      "attributes": [
+        {
+          "name": "position",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "institution",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    },
+    {
+      "label": "Refuge",
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string",
+          "unique": true,
+          "required": true
+        },
+        {
+          "name": "duration",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "relations": [
+    {
+      "label": "BORN_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Place"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "timePeriod",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "birthDate",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "city",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "birthYear",
+          "type": "number",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "birthPlace",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "place",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "HONORED_WITH",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Title"
+      },
+      "attributes": []
+    },
+    {
+      "label": "ATTENDED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "University"
+      },
+      "attributes": [
+        {
+          "name": "yearOfGraduation",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "startYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "endYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "yearEntered",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "fromYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "toYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "EXPERIMENTED_WITH",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Experiment"
+      },
+      "attributes": [
+        {
+          "name": "method",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "experiment_count",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "PARENT_OF",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "FamilyMember"
+      },
+      "attributes": [
+        {
+          "name": "relationType",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "SIBLING_OF",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "FamilyMember"
+      },
+      "attributes": []
+    },
+    {
+      "label": "PART_OF",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Group"
+      },
+      "attributes": [
+        {
+          "name": "relation",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "ACHIEVED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Achievement"
+      },
+      "attributes": []
+    },
+    {
+      "label": "LACKED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Education"
+      },
+      "attributes": []
+    },
+    {
+      "label": "WORKED_AS",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Achievement"
+      },
+      "attributes": []
+    },
+    {
+      "label": "ASSISTED_BY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "APPLIED_IDEAS",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Computer"
+      },
+      "attributes": [
+        {
+          "name": "context",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "CAUGHT_BY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Crime"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "DIED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Death"
+      },
+      "attributes": [
+        {
+          "name": "circumstance",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "PROPOSED_BY",
+      "source": {
+        "label": "Gas"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "suggestion",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "LECTURED_AT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Institution"
+      },
+      "attributes": [
+        {
+          "name": "role",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "DELIVERED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Lecture"
+      },
+      "attributes": [
+        {
+          "name": "occasion",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "INCLUDES",
+      "source": {
+        "label": "Lecture"
+      },
+      "target": {
+        "label": "Discovery"
+      },
+      "attributes": [
+        {
+          "name": "context",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "quantity",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "MARRIED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "marriageYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "GRADUATED_FROM",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Organization"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "LIVED_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Place"
+      },
+      "attributes": [
+        {
+          "name": "start_year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "end_year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "duration",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "OBTAINED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Organization"
+      },
+      "attributes": [
+        {
+          "name": "qualification",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "DISAPPEARED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Event"
+      },
+      "attributes": [
+        {
+          "name": "suspicion_source",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "SEARCHED_BY",
+      "source": {
+        "label": "Event"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "DISCOVERED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Disease"
+      },
+      "attributes": [
+        {
+          "name": "discoveryYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "REQUESTED",
+      "source": {
+        "label": "Government"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "BORN_ON",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Event"
+      },
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "DIED_ON",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Event"
+      },
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "SIBLING",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "FamilyMember"
+      },
+      "attributes": [
+        {
+          "name": "ageAtDeath",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "SPOUSE",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "FamilyMember"
+      },
+      "attributes": [
+        {
+          "name": "supportiveBehavior",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "DEVELOPED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Vaccine"
+      },
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "method",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "SPEAKS_AT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Conference"
+      },
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "DIAGNOSED_WITH",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Disease"
+      },
+      "attributes": [
+        {
+          "name": "diagnosisAge",
+          "type": "number",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "TAUGHT_BY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Educator"
+      },
+      "attributes": [
+        {
+          "name": "teachingMethod",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "method",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "MENTORED_BY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Expert"
+      },
+      "attributes": [
+        {
+          "name": "expertise",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "INVENTED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Invention"
+      },
+      "attributes": [
+        {
+          "name": "yearsActive",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "method",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "dateAppliedPatent",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "invention_date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "FOUNDED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Organization"
+      },
+      "attributes": [
+        {
+          "name": "yearFounded",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "HEALTH_DECLINE",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "DIED_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": [
+        {
+          "name": "deathDate",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "date_of_death",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "WORKED_WITH",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "relationship",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "STUDIED_AT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "School"
+      },
+      "attributes": [
+        {
+          "name": "degree",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "subject",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "major",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "startYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "graduationYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "MADE_DISCOVERY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Discovery"
+      },
+      "attributes": [
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "PUBLISHED",
+      "source": {
+        "label": "Discovery"
+      },
+      "target": {
+        "label": "Book"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "MARRIED_TO",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "marriageYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "order",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "duration",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "ENROLLED_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Institution"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "FUNDRAISES_FOR",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Cause"
+      },
+      "attributes": []
+    },
+    {
+      "label": "WRITES",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Book"
+      },
+      "attributes": []
+    },
+    {
+      "label": "CAMPAIGNS_FOR",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Cause"
+      },
+      "attributes": []
+    },
+    {
+      "label": "DIRECTS",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Film"
+      },
+      "attributes": []
+    },
+    {
+      "label": "DESTROYED_BY",
+      "source": {
+        "label": "Event"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": []
+    },
+    {
+      "label": "AUTHORED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "AstronomyWork"
+      },
+      "attributes": [
+        {
+          "name": "yearAuthored",
+          "type": "number",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "RULED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": [
+        {
+          "name": "yearAscended",
+          "type": "number",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "MURDERED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "murdererRelation",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "WORKED_AT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Monastery"
+      },
+      "attributes": [
+        {
+          "name": "position",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "CONDUCTED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Experiment"
+      },
+      "attributes": [
+        {
+          "name": "methodology",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "RESULTED_IN",
+      "source": {
+        "label": "Experiment"
+      },
+      "target": {
+        "label": "LawOfInheritance"
+      },
+      "attributes": [
+        {
+          "name": "effect",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "BORN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Como"
+      },
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "month",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "INVOLVED_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Controversy"
+      },
+      "attributes": []
+    },
+    {
+      "label": "PARTICIPATED_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Controversy"
+      },
+      "attributes": [
+        {
+          "name": "role",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "JOINED",
+      "source": {
+        "label": "Philosopher"
+      },
+      "target": {
+        "label": "Order"
+      },
+      "attributes": []
+    },
+    {
+      "label": "WROTE",
+      "source": {
+        "label": "Philosopher"
+      },
+      "target": {
+        "label": "Work"
+      },
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "yearPublished",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "BURIED_IN",
+      "source": {
+        "label": "Philosopher"
+      },
+      "target": {
+        "label": "University"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HELD_POSITION",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Occupation"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "fromYear",
+          "type": "number",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "toYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "DESIGNED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Invention"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "DIRECTED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Laboratory"
+      },
+      "attributes": [
+        {
+          "name": "startYear",
+          "type": "number",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "endYear",
+          "type": "number",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "EMIGRATED_FROM",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Country"
+      },
+      "attributes": [
+        {
+          "name": "migrationYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "BORN_AT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "VALUED_AT",
+      "source": {
+        "label": "Equipment"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": [
+        {
+          "name": "value",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "STUDIED_IN",
+      "source": {
+        "label": "Philosopher"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": [
+        {
+          "name": "field",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "DISCIPLE_OF",
+      "source": {
+        "label": "Philosopher"
+      },
+      "target": {
+        "label": "Philosopher"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "CAPTURED_BY",
+      "source": {
+        "label": "Philosopher"
+      },
+      "target": {
+        "label": "Pirate"
+      },
+      "attributes": [
+        {
+          "name": "context",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "SOLD_TO",
+      "source": {
+        "label": "Pirate"
+      },
+      "target": {
+        "label": "SlaveOwner"
+      },
+      "attributes": []
+    },
+    {
+      "label": "TUTORED_BY",
+      "source": {
+        "label": "Philosopher"
+      },
+      "target": {
+        "label": "SlaveOwner"
+      },
+      "attributes": []
+    },
+    {
+      "label": "MEMORIALIZED_BY",
+      "source": {
+        "label": "Corinthians"
+      },
+      "target": {
+        "label": "Philosopher"
+      },
+      "attributes": [
+        {
+          "name": "memorialType",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "PARENT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "TRAINED_AS",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Occupation"
+      },
+      "attributes": []
+    },
+    {
+      "label": "COMPLETED",
+      "source": {
+        "label": "Flight"
+      },
+      "target": {
+        "label": "Spacecraft"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HAS_CHILD",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "dateOfBirth",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "dateOfDeath",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "SUPPORTS",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Document"
+      },
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "relationship",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "OPPOSED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "PoliticalEntity"
+      },
+      "attributes": []
+    },
+    {
+      "label": "CAST_VOTE",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "PoliticalEntity"
+      },
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "GAINED_RESPECT",
+      "source": {
+        "label": "Event"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "reason",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "CONFLICTED_WITH",
+      "source": {
+        "label": "Scientist"
+      },
+      "target": {
+        "label": "Government"
+      },
+      "attributes": [
+        {
+          "name": "issue",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "OWNS",
+      "source": {
+        "label": "Government"
+      },
+      "target": {
+        "label": "Tax"
+      },
+      "attributes": [
+        {
+          "name": "status",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "AFFILIATED_WITH",
+      "source": {
+        "label": "Scientist"
+      },
+      "target": {
+        "label": "Monastery"
+      },
+      "attributes": [
+        {
+          "name": "role",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "BURNED_PAPERS",
+      "source": {
+        "label": "Government"
+      },
+      "target": {
+        "label": "Paper"
+      },
+      "attributes": [
+        {
+          "name": "reason",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "HAS_FATHER",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HAS_MOTHER",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HAS_HEALTH_ISSUE",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "HealthIssue"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HAS_CHILDREN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "SERVED_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "College"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HAS_LOCATION",
+      "source": {
+        "label": "College"
+      },
+      "target": {
+        "label": "City"
+      },
+      "attributes": []
+    },
+    {
+      "label": "LOCATED_IN",
+      "source": {
+        "label": "City"
+      },
+      "target": {
+        "label": "Country"
+      },
+      "attributes": []
+    },
+    {
+      "label": "INFLUENCED",
+      "source": {
+        "label": "Philosopher"
+      },
+      "target": {
+        "label": "Philosopher"
+      },
+      "attributes": [
+        {
+          "name": "influence_type",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "TAUGHT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "method",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "STUDIED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Philosophy"
+      },
+      "attributes": [
+        {
+          "name": "study_method",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "RECORDED_BY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Philosopher"
+      },
+      "attributes": [
+        {
+          "name": "medium",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "DECLARED_BY",
+      "source": {
+        "label": "Oracle"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "declaration",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "SENTENCED_TO",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Execution"
+      },
+      "attributes": [
+        {
+          "name": "reason",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "PATENTED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Invention"
+      },
+      "attributes": [
+        {
+          "name": "patent_number",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "MOVED_TO",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": []
+    },
+    {
+      "label": "EXPERIENCED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Disaster"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HAD_FIRE_INCIDENT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "FireIncident"
+      },
+      "attributes": []
+    },
+    {
+      "label": "PRODUCED",
+      "source": {
+        "label": "Laboratory"
+      },
+      "target": {
+        "label": "Product"
+      },
+      "attributes": []
+    },
+    {
+      "label": "CRASHED",
+      "source": {
+        "label": "Train"
+      },
+      "target": {
+        "label": "Disaster"
+      },
+      "attributes": []
+    },
+    {
+      "label": "LOCATED_AT",
+      "source": {
+        "label": "Newspaper"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": []
+    },
+    {
+      "label": "APPRENTICED_TO",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "ApothecarySurgeon"
+      },
+      "attributes": [
+        {
+          "name": "startYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "MANAGED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Shop"
+      },
+      "attributes": [
+        {
+          "name": "startYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "start_date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "SUFFERED_FROM",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Condition"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "impact",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "CHILDLESS_MARRIAGE",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "status",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "HEALTH_STATUS",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Condition"
+      },
+      "attributes": [
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "EDUCATED_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "School"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "STOCK",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Business"
+      },
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "QUALIFIED_AS",
+      "source": {
+        "label": "ApothecarySurgeon"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "DISCUSSED_IN",
+      "source": {
+        "label": "Book"
+      },
+      "target": {
+        "label": "ChemicalElement"
+      },
+      "attributes": [
+        {
+          "name": "date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "CHILD_OF",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "relationship",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "PROVEN_COMPOSITION",
+      "source": {
+        "label": "ChemicalElement"
+      },
+      "target": {
+        "label": "ChemicalElement"
+      },
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "CAME_FROM",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "PROMINENT_IN",
+      "source": {
+        "label": "Chemistry"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "desc",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "LEARNED_FROM",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "desc",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "GRAY_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Place"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "PRACTICED_IN",
+      "source": {
+        "label": "ApothecarySurgeon"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "DEVOTED_TO",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Field"
+      },
+      "attributes": [
+        {
+          "name": "type",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "GAVE_BIRTH_TO",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "EDUCATED_AT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Education"
+      },
+      "attributes": []
+    },
+    {
+      "label": "PROPOSED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Theory"
+      },
+      "attributes": []
+    },
+    {
+      "label": "SPECIALIZED_IN",
+      "source": {
+        "label": "Chemist"
+      },
+      "target": {
+        "label": "Mendeleev"
+      },
+      "attributes": []
+    },
+    {
+      "label": "DISMISSED",
+      "source": {
+        "label": "Government"
+      },
+      "target": {
+        "label": "Mendeleev"
+      },
+      "attributes": []
+    },
+    {
+      "label": "ELECTED_MEMBER",
+      "source": {
+        "label": "AcademyOfSciences"
+      },
+      "target": {
+        "label": "Mendeleev"
+      },
+      "attributes": []
+    },
+    {
+      "label": "STUDENT_PROTEST",
+      "source": {
+        "label": "UniversityOfStPetersburg"
+      },
+      "target": {
+        "label": "Mendeleev"
+      },
+      "attributes": []
+    },
+    {
+      "label": "DELIVERED_PETITION",
+      "source": {
+        "label": "Mendeleev"
+      },
+      "target": {
+        "label": "StudentPetition"
+      },
+      "attributes": []
+    },
+    {
+      "label": "CONTRIBUTED_TO",
+      "source": {
+        "label": "Chemist"
+      },
+      "target": {
+        "label": "Field"
+      },
+      "attributes": []
+    },
+    {
+      "label": "WRITTEN_BY",
+      "source": {
+        "label": "Book"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "EXECUTED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Place"
+      },
+      "attributes": [
+        {
+          "name": "method",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "HAS_TENDENCY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "ATTENDED_FUNERAL",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "PURCHASED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "VacationHome"
+      },
+      "attributes": []
+    },
+    {
+      "label": "ARGUED_FOR",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "PoliticalAdvisor"
+      },
+      "attributes": []
+    },
+    {
+      "label": "RESIDED_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": []
+    },
+    {
+      "label": "REALIZED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Rocket"
+      },
+      "attributes": []
+    },
+    {
+      "label": "RECEIVED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Estate"
+      },
+      "attributes": []
+    },
+    {
+      "label": "AWARDED",
+      "source": {
+        "label": "Estate"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "ARRESTED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Ship"
+      },
+      "attributes": []
+    },
+    {
+      "label": "COMMITTED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Crime"
+      },
+      "attributes": []
+    },
+    {
+      "label": "TRIED_AT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Trial"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HAD_IN",
+      "source": {
+        "label": "Crime"
+      },
+      "target": {
+        "label": "Trial"
+      },
+      "attributes": []
+    },
+    {
+      "label": "CAUSED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Disaster"
+      },
+      "attributes": []
+    },
+    {
+      "label": "SUNK",
+      "source": {
+        "label": "Ship"
+      },
+      "target": {
+        "label": "Disaster"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HAS_FAMILY_MEMBER",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "FamilyMember"
+      },
+      "attributes": [
+        {
+          "name": "relationshipType",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "SUPPORTED_BY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Company"
+      },
+      "attributes": []
+    },
+    {
+      "label": "DISPLAYED_IN",
+      "source": {
+        "label": "Document"
+      },
+      "target": {
+        "label": "Exhibition"
+      },
+      "attributes": []
+    },
+    {
+      "label": "TEACHES",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "School"
+      },
+      "attributes": []
+    },
+    {
+      "label": "GRANTED_BY",
+      "source": {
+        "label": "Award"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "TO",
+      "source": {
+        "label": "Location"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": [
+        {
+          "name": "event",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "FATHER_OF",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "relation",
+          "type": "string",
+          "unique": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "CREATED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Invention"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "KILLED_BY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "method",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "FOUND_TOMB",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Tomb"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "REPAIRED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Machine"
+      },
+      "attributes": [
+        {
+          "name": "action_date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "READ",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Note"
+      },
+      "attributes": [
+        {
+          "name": "read_date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "HONORED",
+      "source": {
+        "label": "Tribute"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "honor_date",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "HAD",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Achievement"
+      },
+      "attributes": [
+        {
+          "name": "theory_count",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "WORKED_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": []
+    },
+    {
+      "label": "BELONGS_TO",
+      "source": {
+        "label": "Invention"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": []
+    },
+    {
+      "label": "INTERESTED_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Activity"
+      },
+      "attributes": []
+    },
+    {
+      "label": "EXHIBITED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Invention"
+      },
+      "attributes": []
+    },
+    {
+      "label": "DIRECTED_BY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "role",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "TRIED_TO_ELECT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Academy"
+      },
+      "attributes": [
+        {
+          "name": "year",
+          "type": "number",
+          "unique": false,
+          "required": false
+        },
+        {
+          "name": "result",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "KNOWN_AS",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "SON_OF",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "PRESIDENT_OF",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Society"
+      },
+      "attributes": []
+    },
+    {
+      "label": "INFLUENCED_BY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "ScientificInfluence"
+      },
+      "attributes": []
+    },
+    {
+      "label": "DESCRIBED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Condition"
+      },
+      "attributes": []
+    },
+    {
+      "label": "KEPT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Record"
+      },
+      "attributes": []
+    },
+    {
+      "label": "USED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "MeasurementTool"
+      },
+      "attributes": []
+    },
+    {
+      "label": "ESTABLISHED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Vaccination"
+      },
+      "attributes": []
+    },
+    {
+      "label": "SIGNED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Certificate"
+      },
+      "attributes": []
+    },
+    {
+      "label": "PLED_FOR",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "FAILED_OPPOSITION",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "SETTLED_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Location"
+      },
+      "attributes": []
+    },
+    {
+      "label": "OBSERVED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Observation"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HELD_TITLE",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "AstronomerRoyal"
+      },
+      "attributes": []
+    },
+    {
+      "label": "SAVED_LIVES",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Event"
+      },
+      "attributes": [
+        {
+          "name": "description",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "GAVE",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Lecture"
+      },
+      "attributes": [
+        {
+          "name": "income_type",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "BANNED",
+      "source": {
+        "label": "EcclesiasticalAuthority"
+      },
+      "target": {
+        "label": "Book"
+      },
+      "attributes": []
+    },
+    {
+      "label": "CONTRIBUTED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Contribution"
+      },
+      "attributes": []
+    },
+    {
+      "label": "MEMBER_OF",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Society"
+      },
+      "attributes": [
+        {
+          "name": "membershipType",
+          "type": "string",
+          "unique": false,
+          "required": true
+        },
+        {
+          "name": "startYear",
+          "type": "number",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "BURIED_AT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Monument"
+      },
+      "attributes": [
+        {
+          "name": "burialDate",
+          "type": "string",
+          "unique": false,
+          "required": true
+        }
+      ]
+    },
+    {
+      "label": "FAVORED",
+      "source": {
+        "label": "Queen"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "reason",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "PROTESTANT",
+      "source": {
+        "label": "Family"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": []
+    },
+    {
+      "label": "TOOK_PART_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Event"
+      },
+      "attributes": []
+    },
+    {
+      "label": "ORGANIZED",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Event"
+      },
+      "attributes": [
+        {
+          "name": "location",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "IMPRISONED_BY",
+      "source": {
+        "label": "Queen"
+      },
+      "target": {
+        "label": "Person"
+      },
+      "attributes": [
+        {
+          "name": "reason",
+          "type": "string",
+          "unique": false,
+          "required": false
+        }
+      ]
+    },
+    {
+      "label": "DEGREE_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "University"
+      },
+      "attributes": []
+    },
+    {
+      "label": "TEACHER_AT",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "University"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HAS_HEALTH_CONDITION",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "HealthCondition"
+      },
+      "attributes": []
+    },
+    {
+      "label": "HAS_FAMILY",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Family"
+      },
+      "attributes": []
+    },
+    {
+      "label": "EXPERIMENTED_ON",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "Frog"
+      },
+      "attributes": []
+    },
+    {
+      "label": "IN_CONTACT_WITH",
+      "source": {
+        "label": "Frog"
+      },
+      "target": {
+        "label": "ElectricalMachine"
+      },
+      "attributes": []
+    },
+    {
+      "label": "TOOK_REFUGE_IN",
+      "source": {
+        "label": "Person"
+      },
+      "target": {
+        "label": "PrivateLife"
+      },
+      "attributes": []
+    }
+  ]
+}
