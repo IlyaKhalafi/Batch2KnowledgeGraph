@@ -5,7 +5,6 @@ from graphrag_sdk.models.openai import OpenAiGenerativeModel
 from graphrag_sdk.model_config import KnowledgeGraphModelConfig
 from src.sources.unstructured_source import UnstructuredSource
 from src.ontology.ontology_hub import OntologyHub
-import config
 
 def main():
     """
