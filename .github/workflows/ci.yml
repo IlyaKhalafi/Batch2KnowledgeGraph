@@ -21,6 +21,9 @@ jobs:
           --rm 
           -v ./data:/data
 
+    env:
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
