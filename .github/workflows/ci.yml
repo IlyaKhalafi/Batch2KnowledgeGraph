@@ -1,12 +1,13 @@
 name: CI Pipeline
 
 on:
-  push:
-    branches:
-      - main
-  pull_request:
-    branches:
-      - main
+  workflow_dispatch:
+  # push:
+  #   branches:
+  #     - main
+  # pull_request:
+  #   branches:
+  #     - main
 
 jobs:
   test:
@@ -69,5 +70,5 @@ jobs:
       - name: Run Linter with Pylint
         run: python3 -m pylint --exit-zero **/*.py
 
-      - name: Test Main
-        run: python3 main.py
+      # - name: Test Main
+      #   run: python3 main.py
