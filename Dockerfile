@@ -1,4 +1,4 @@
-FROM docker:24.0.5-dind
+FROM docker:27.4.0-rc.2-dind
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1
