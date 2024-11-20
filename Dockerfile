@@ -1,4 +1,4 @@
-FROM docker:27.4.0-rc.2-dind
+FROM cruizba/ubuntu-dind:latest
 
 ENV PYTHONUNBUFFERED=1 \
     PYTHONDONTWRITEBYTECODE=1
