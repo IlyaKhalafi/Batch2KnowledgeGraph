@@ -1,7 +1,3 @@
-Here’s a more concise version of your README that retains all key points:
-
----
-
 # Batch2KnowledgeGraph
 
 This project introduces an efficient multiprocess workflow to integrate the `unstructured-io` library with the `GraphRAG-SDK` framework for generating knowledge graphs.
@@ -13,7 +9,7 @@ The [GraphRAG-SDK](https://github.com/FalkorDB/GraphRAG-SDK) framework facilitat
 
 ### Motivation
 
-| <img title="Brainstem" width=600 height=250 src="./assets/general-workflow.jpeg"/> | 
+| <img title="Brainstem" width=600 height=300 src="./assets/general-workflow.jpeg"/> | 
 | :---: |
 | General Workflow: Unstructured + GraphRAG-SDK |
 
